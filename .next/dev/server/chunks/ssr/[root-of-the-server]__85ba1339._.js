@@ -40,8 +40,9 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$i
 ;
 ;
 ;
+const baseUrl = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : process.env.NEXT_PUBLIC_SITE_URL || "https://techimpacters.org";
 const metadata = {
-    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://techimpacters.org"),
+    metadataBase: new URL(baseUrl),
     title: "Techimpacters | Driving Tech Innovation in Schools",
     description: "Academic NGO dedicated to promoting technology and digital literacy in various schools.",
     icons: {
@@ -58,15 +59,16 @@ const metadata = {
         title: "Techimpacters | Driving Tech Innovation in Schools",
         description: "Academic NGO dedicated to promoting technology and digital literacy in various schools.",
         images: [
-            "/favy.jpg"
-        ]
+            "/logo.png"
+        ],
+        url: "/"
     },
     twitter: {
         card: "summary_large_image",
         title: "Techimpacters | Driving Tech Innovation in Schools",
         description: "Academic NGO dedicated to promoting technology and digital literacy in various schools.",
         images: [
-            "/favy.jpg"
+            "/logo.png"
         ]
     }
 };
@@ -79,12 +81,12 @@ function RootLayout({ children }) {
             children: children
         }, void 0, false, {
             fileName: "[project]/src/app/layout.tsx",
-            lineNumber: 36,
+            lineNumber: 42,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/layout.tsx",
-        lineNumber: 35,
+        lineNumber: 41,
         columnNumber: 9
     }, this);
 }

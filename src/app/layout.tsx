@@ -4,8 +4,13 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const baseUrl =
+    process.env.VERCEL_URL
+        ? `https://${process.env.VERCEL_URL}`
+        : process.env.NEXT_PUBLIC_SITE_URL || "https://techimpacters.org";
+
 export const metadata: Metadata = {
-    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://techimpacters.org"),
+    metadataBase: new URL(baseUrl),
     title: "Techimpacters | Driving Tech Innovation in Schools",
     description: "Academic NGO dedicated to promoting technology and digital literacy in various schools.",
     icons: {
@@ -16,13 +21,14 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Techimpacters | Driving Tech Innovation in Schools",
         description: "Academic NGO dedicated to promoting technology and digital literacy in various schools.",
-        images: ["/favy.jpg"],
+        images: ["/logo.png"],
+        url: "/",
     },
     twitter: {
         card: "summary_large_image",
         title: "Techimpacters | Driving Tech Innovation in Schools",
         description: "Academic NGO dedicated to promoting technology and digital literacy in various schools.",
-        images: ["/favy.jpg"],
+        images: ["/logo.png"],
     },
 };
 
