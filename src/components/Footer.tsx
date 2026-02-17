@@ -17,11 +17,15 @@ const Footer = () => {
                             Empowering the next generation of innovators through technology education and school-based initiatives since 2014.
                         </p>
                         <div className="flex space-x-4">
-                            {[Twitter, Instagram, Linkedin].map((Icon, i) => (
-                                <a key={i} href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors">
-                                    <Icon size={20} />
-                                </a>
-                            ))}
+                            <a href="#" aria-label="Twitter" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors">
+                                <Twitter size={20} />
+                            </a>
+                            <a href="#" aria-label="Instagram" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors">
+                                <Instagram size={20} />
+                            </a>
+                            <a href="#" aria-label="LinkedIn" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors">
+                                <Linkedin size={20} />
+                            </a>
                         </div>
                     </div>
 
@@ -66,7 +70,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="border-t border-gray-800 pt-8 flex flex-col md:row justify-between items-center text-sm text-gray-500">
+                <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
                     <p>© 2026 Techimpacters NGO. All rights reserved.</p>
                     <div className="mt-4 md:mt-0 flex space-x-6">
                         <a href="#" className="hover:text-gray-300">Privacy Policy</a>
