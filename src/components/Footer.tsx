@@ -28,11 +28,11 @@ const Footer = () => {
                     <div>
                         <h4 className="text-lg font-bold mb-6 border-b border-gray-800 pb-2">Quick Links</h4>
                         <ul className="space-y-4 text-gray-400">
-                            <li><Link href="#" className="hover:text-primary transition-colors">Home</Link></li>
-                            <li><Link href="#about" className="hover:text-primary transition-colors">About Us</Link></li>
-                            <li><Link href="#projects" className="hover:text-primary transition-colors">Our Projects</Link></li>
-                            <li><Link href="#impact" className="hover:text-primary transition-colors">Impact Stories</Link></li>
-                            <li><Link href="#" className="hover:text-primary transition-colors">Join as Volunteer</Link></li>
+                            <li><Link href="/" className="hover:text-primary transition-colors">Home</Link></li>
+                            <li><Link href="/about" className="hover:text-primary transition-colors">About Us</Link></li>
+                            <li><Link href="/projects" className="hover:text-primary transition-colors">Our Projects</Link></li>
+                            <li><Link href="/impact" className="hover:text-primary transition-colors">Impact Stories</Link></li>
+                            <li><Link href="/contact" className="hover:text-primary transition-colors">Join as Volunteer</Link></li>
                         </ul>
                     </div>
 

@@ -18,11 +18,11 @@ const Navbar = () => {
     }, []);
 
     const navLinks = [
-        { name: "Home", href: "#" },
-        { name: "About", href: "#about" },
-        { name: "Projects", href: "#projects" },
-        { name: "Impact", href: "#impact" },
-        { name: "Contact", href: "#contact" },
+        { name: "Home", href: "/" },
+        { name: "About", href: "/about" },
+        { name: "Projects", href: "/projects" },
+        { name: "Impact", href: "/impact" },
+        { name: "Contact", href: "/contact" },
     ];
 
     return (
@@ -48,9 +48,9 @@ const Navbar = () => {
                                 {link.name}
                             </Link>
                         ))}
-                        <button className="bg-primary text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-600 transition-all transform hover:scale-105 shadow-md">
+                        <Link href="/contact" className="bg-primary text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-600 transition-all transform hover:scale-105 shadow-md">
                             Get Involved
-                        </button>
+                        </Link>
                     </div>
 
                     {/* Mobile Button */}
@@ -82,9 +82,9 @@ const Navbar = () => {
                             {link.name}
                         </Link>
                     ))}
-                    <button className="w-full mt-4 bg-primary text-white py-3 rounded-xl font-bold">
+                    <Link href="/contact" className="w-full mt-4 bg-primary text-white py-3 rounded-xl font-bold block text-center">
                         Get Involved
-                    </button>
+                    </Link>
                 </motion.div>
             )}
         </nav>
