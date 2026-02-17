@@ -6,3 +6,14 @@
 [00:01:34.273] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1523240795612-9a0546980c83?w=400&q=80" 404
 [00:01:47.059] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1523240795612-9a0546980c83?w=1920&q=80" 404
 [00:01:49.162] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1523240795612-9a0546980c83?w=600&q=80" 404
+[00:03:25.416] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1523240795612-9a0546980c83?w=1920&q=80" 404
+[00:03:56.542] Server  LOG     ✓ Compiled in 807ms
+[00:04:01.309] Server  LOG     ✓ Compiled in 331ms
+[00:04:15.043] Server  LOG     ✓ Compiled in 2.4s
+[00:04:32.013] Server  LOG     ✓ Compiled in 208ms
+[00:04:38.202] Server  LOG     ✓ Compiled in 240ms
+[00:04:42.948] Server  LOG     ✓ Compiled in 226ms
+[00:04:52.444] Server  LOG     ✓ Compiled in 156ms
+[00:05:13.903] Server  LOG     ✓ Compiled in 61ms
+[00:05:19.047] Server  LOG     ✓ Compiled in 162ms
+[00:05:23.537] Server  LOG     ✓ Compiled in 142ms

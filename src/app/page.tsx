@@ -5,6 +5,8 @@ import Projects from "@/components/Projects";
 import Impact from "@/components/Impact";
 import Updates from "@/components/Updates";
 import WatchOurStory from "@/components/WatchOurStory";
+import WorkWithUs from "@/components/WorkWithUs";
+import Newsletter from "@/components/Newsletter";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -17,6 +19,8 @@ export default function Home() {
       <Impact />
       <Updates />
       <WatchOurStory />
+      <WorkWithUs />
+      <Newsletter />
       <Footer />
     </main>
   );

@@ -10,7 +10,7 @@ const Projects = () => {
     {
       title: "Code For Kids",
       category: "Digital Literacy",
-      description: "A comprehensive program teaching basic programming to primary school students across 15 schools.",
+      description: "A comprehensive program teaching Scratch, Python, and web basics to primary school students across 15+ schools. Includes weekly sessions, hackathons, and parent showcases.",
       icon: <Code className="text-primary" size={24} />,
       image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80",
       color: "bg-blue-50",
@@ -18,7 +18,7 @@ const Projects = () => {
     {
       title: "Mobile Lab Initiative",
       category: "Infrastructure",
-      description: "Deploying portable computer labs to rural schools that lack permanent tech facilities.",
+      description: "Deploying portable computer labs to rural schools that lack permanent tech facilities. Each lab rotates between 3–4 schools monthly, reaching thousands of students.",
       icon: <Smartphone className="text-primary" size={24} />,
       image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&q=80",
       color: "bg-blue-50",
@@ -26,7 +26,7 @@ const Projects = () => {
     {
       title: "STEM Workshops",
       category: "Innovation",
-      description: "Interactive weekend workshops focusing on robotics and electronics for high school students.",
+      description: "Interactive weekend workshops on robotics, electronics, and 3D printing for high school students. Partner schools host sessions; we provide kits and trained facilitators.",
       icon: <Cpu className="text-primary" size={24} />,
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80",
       color: "bg-blue-50",
@@ -39,8 +39,11 @@ const Projects = () => {
         <div className="text-center mb-16">
           <h2 className="text-primary font-bold uppercase tracking-wider mb-2">Our Projects</h2>
           <h3 className="text-4xl font-bold text-gray-900 mb-4">Driving Change Through Innovation</h3>
-          <p className="max-w-2xl mx-auto text-gray-600 text-lg">
+          <p className="max-w-2xl mx-auto text-gray-600 text-lg mb-4">
             Explore our flagship initiatives designed to empower young students and educators with modern tools. From coding to robotics, we&apos;re making tech accessible to every child.
+          </p>
+          <p className="max-w-xl mx-auto text-gray-500">
+            Each project is designed with scalability in mind—reaching urban and rural schools alike through mobile labs, teacher training, and hands-on curriculum.
           </p>
         </div>
 

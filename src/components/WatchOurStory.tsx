@@ -11,8 +11,11 @@ const WatchOurStory = () => {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-4">
             Watch Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-400">Story</span>
           </h2>
-          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-4">
             See how we&apos;re transforming education and empowering the next generation through technology.
+          </p>
+          <p className="text-gray-400 max-w-xl mx-auto">
+            This video captures why tech education matters—and why organizations like Techimpacters exist to bridge the digital divide.
           </p>
         </div>
 

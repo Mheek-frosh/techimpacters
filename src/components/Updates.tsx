@@ -9,21 +9,21 @@ const updates = [
   {
     title: "Young Innovators Bootcamp 2026",
     date: "March 2026",
-    excerpt: "Registration is now open for our annual 2-week summer program. 150 spots available for secondary school students.",
+    excerpt: "Registration is now open for our annual 2-week summer program. 150 spots available for secondary school students. Participants will learn Python, web development, and robotics—all at no cost.",
     image: "https://images.unsplash.com/photo-1523240795612-9a0546980c83?w=600&q=80",
     tag: "New",
   },
   {
     title: "Mobile Lab Expands to 5 New States",
     date: "February 2026",
-    excerpt: "Our Mobile Lab Initiative is reaching more rural communities. 12 new schools will receive rotating computer labs.",
+    excerpt: "Our Mobile Lab Initiative is reaching more rural communities. 12 new schools will receive rotating computer labs. Each lab includes 25 laptops, projectors, and internet connectivity.",
     image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&q=80",
     tag: "Expansion",
   },
   {
     title: "Teacher Tech Certification Program",
     date: "January 2026",
-    excerpt: "500+ educators certified in digital pedagogy. Our training program continues to grow across the region.",
+    excerpt: "500+ educators certified in digital pedagogy. Our training program continues to grow across the region. Certified teachers report 40% improvement in student engagement.",
     image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&q=80",
     tag: "Milestone",
   },
@@ -38,7 +38,10 @@ export default function Updates() {
             <h2 className="text-primary font-bold uppercase tracking-wider mb-2 flex items-center gap-2">
               <Megaphone size={20} /> What&apos;s New
             </h2>
-            <h3 className="text-4xl font-bold text-gray-900">Latest Updates</h3>
+            <h3 className="text-4xl font-bold text-gray-900 mb-2">Latest Updates</h3>
+            <p className="text-gray-600 max-w-xl">
+              Stay informed about our programs, expansions, and milestones as we scale tech education across communities.
+            </p>
           </div>
           <Link href="/contact" className="text-primary font-bold hover:underline flex items-center gap-2">
             Get involved <ArrowRight size={18} />

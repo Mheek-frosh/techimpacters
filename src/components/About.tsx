@@ -38,8 +38,11 @@ const About = () => {
             <h3 className="text-4xl font-bold text-gray-900 mb-6 leading-tight">
               An Academic NGO on a Mission to <span className="text-primary">Transform Schools</span>
             </h3>
-            <p className="text-lg text-gray-600 mb-8">
+            <p className="text-lg text-gray-600 mb-4">
               Techimpacters was founded with a simple yet powerful goal: to ensure that every student, regardless of their background, has access to the tools and knowledge necessary to thrive in the digital age.
+            </p>
+            <p className="text-gray-600 mb-8">
+              We work directly with schools, train teachers, and deploy infrastructure—so that coding, STEM, and digital literacy become part of everyday learning, not a privilege for the few.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {cards.map((card, index) => (
