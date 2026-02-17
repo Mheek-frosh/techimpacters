@@ -1,31 +1,7 @@
-[00:00:00.978] Server  LOG     ✓ Ready in 637ms
-[00:00:01.305] Server  ERROR   ⨯ ./src/app/globals.css
-Error evaluating Node.js code
-Error: Cannot find module '@tailwindcss/postcss'
-Require stack:
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\chunks\[root-of-the-server]__6d51cb5d._.js
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\chunks\[turbopack]_runtime.js
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\postcss.js
-    [at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)]
-    [at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)]
-    [at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)]
-    [at Module._load (node:internal/modules/cjs/loader:1227:37)]
-    [at TracingChannel.traceSync (node:diagnostics_channel:328:14)]
-    [at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)]
-    [at Module.require (node:internal/modules/cjs/loader:1504:12)]
-    [at require (node:internal/modules/helpers:152:16)]
-    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
-    [at <anonymous>]
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.tsx [Server Component]
-
-
-[00:00:01.593] Server  WARN    ⚠ Cross origin request detected from 172.20.10.2 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:01.347] Server  LOG     ✓ Ready in 905ms
+[00:00:01.393] Server  WARN    ⚠ Cross origin request detected from 172.20.10.2 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:01.761] Server  ERROR   ⨯ ./src/app/globals.css
+[00:00:02.001] Server  ERROR   ⨯ ./src/app/globals.css
 Error evaluating Node.js code
 Error: Cannot find module '@tailwindcss/postcss'
 Require stack:
@@ -49,7 +25,7 @@ Import trace:
     ./src/app/layout.tsx [Server Component]
 
 
-[00:00:01.773] Server  ERROR   ⨯ ./src/app/globals.css
+[00:00:02.010] Server  ERROR   ⨯ ./src/app/globals.css
 Error evaluating Node.js code
 Error: Cannot find module '@tailwindcss/postcss'
 Require stack:
@@ -73,7 +49,7 @@ Import trace:
     ./src/app/layout.tsx [Server Component]
 
 
-[00:00:02.416] Browser ERROR   uncaughtError: Error: ./src/app/globals.css
+[00:00:02.585] Server  ERROR   ⨯ ./src/app/globals.css
 Error evaluating Node.js code
 Error: Cannot find module '@tailwindcss/postcss'
 Require stack:
@@ -97,7 +73,7 @@ Import trace:
     ./src/app/layout.tsx [Server Component]
 
 
-[00:00:02.526] Browser ERROR   uncaughtError: Error: ./src/app/globals.css
+[00:00:03.441] Browser ERROR   uncaughtError: Error: ./src/app/globals.css
 Error evaluating Node.js code
 Error: Cannot find module '@tailwindcss/postcss'
 Require stack:
@@ -121,7 +97,7 @@ Import trace:
     ./src/app/layout.tsx [Server Component]
 
 
-[00:00:02.528] Browser ERROR   uncaughtError: Error: ./src/app/globals.css
+[00:00:03.515] Browser ERROR   uncaughtError: Error: ./src/app/globals.css
 Error evaluating Node.js code
 Error: Cannot find module '@tailwindcss/postcss'
 Require stack:
@@ -145,7 +121,7 @@ Import trace:
     ./src/app/layout.tsx [Server Component]
 
 
-[00:00:03.448] Browser ERROR   ./src/app/globals.css
+[00:00:03.527] Browser ERROR   uncaughtError: Error: ./src/app/globals.css
 Error evaluating Node.js code
 Error: Cannot find module '@tailwindcss/postcss'
 Require stack:
@@ -167,7 +143,9 @@ Import trace:
   Client Component Browser:
     ./src/app/globals.css [Client Component Browser]
     ./src/app/layout.tsx [Server Component]
-[00:00:03.448] Browser ERROR   ./src/app/globals.css
+
+
+[00:00:03.795] Browser ERROR   ./src/app/globals.css
 Error evaluating Node.js code
 Error: Cannot find module '@tailwindcss/postcss'
 Require stack:
@@ -189,7 +167,7 @@ Import trace:
   Client Component Browser:
     ./src/app/globals.css [Client Component Browser]
     ./src/app/layout.tsx [Server Component]
-[00:00:03.448] Browser ERROR   ./src/app/globals.css
+[00:00:03.795] Browser ERROR   ./src/app/globals.css
 Error evaluating Node.js code
 Error: Cannot find module '@tailwindcss/postcss'
 Require stack:
@@ -211,7 +189,7 @@ Import trace:
   Client Component Browser:
     ./src/app/globals.css [Client Component Browser]
     ./src/app/layout.tsx [Server Component]
-[00:00:03.448] Browser ERROR   ./src/app/globals.css
+[00:00:03.795] Browser ERROR   ./src/app/globals.css
 Error evaluating Node.js code
 Error: Cannot find module '@tailwindcss/postcss'
 Require stack:
@@ -233,7 +211,7 @@ Import trace:
   Client Component Browser:
     ./src/app/globals.css [Client Component Browser]
     ./src/app/layout.tsx [Server Component]
-[00:00:03.448] Browser ERROR   ./src/app/globals.css
+[00:00:03.795] Browser ERROR   ./src/app/globals.css
 Error evaluating Node.js code
 Error: Cannot find module '@tailwindcss/postcss'
 Require stack:
@@ -255,7 +233,7 @@ Import trace:
   Client Component Browser:
     ./src/app/globals.css [Client Component Browser]
     ./src/app/layout.tsx [Server Component]
-[00:00:03.448] Browser ERROR   ./src/app/globals.css
+[00:00:03.795] Browser ERROR   ./src/app/globals.css
 Error evaluating Node.js code
 Error: Cannot find module '@tailwindcss/postcss'
 Require stack:
@@ -277,7 +255,7 @@ Import trace:
   Client Component Browser:
     ./src/app/globals.css [Client Component Browser]
     ./src/app/layout.tsx [Server Component]
-[00:00:03.448] Browser ERROR   ./src/app/globals.css
+[00:00:03.795] Browser ERROR   ./src/app/globals.css
 Error evaluating Node.js code
 Error: Cannot find module '@tailwindcss/postcss'
 Require stack:
@@ -299,7 +277,7 @@ Import trace:
   Client Component Browser:
     ./src/app/globals.css [Client Component Browser]
     ./src/app/layout.tsx [Server Component]
-[00:00:03.448] Browser ERROR   ./src/app/globals.css
+[00:00:04.735] Browser ERROR   ./src/app/globals.css
 Error evaluating Node.js code
 Error: Cannot find module '@tailwindcss/postcss'
 Require stack:
@@ -321,7 +299,7 @@ Import trace:
   Client Component Browser:
     ./src/app/globals.css [Client Component Browser]
     ./src/app/layout.tsx [Server Component]
-[00:00:03.448] Browser ERROR   ./src/app/globals.css
+[00:00:04.735] Browser ERROR   ./src/app/globals.css
 Error evaluating Node.js code
 Error: Cannot find module '@tailwindcss/postcss'
 Require stack:
@@ -343,205 +321,7 @@ Import trace:
   Client Component Browser:
     ./src/app/globals.css [Client Component Browser]
     ./src/app/layout.tsx [Server Component]
-[00:00:03.448] Browser ERROR   ./src/app/globals.css
-Error evaluating Node.js code
-Error: Cannot find module '@tailwindcss/postcss'
-Require stack:
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\chunks\[root-of-the-server]__6d51cb5d._.js
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\chunks\[turbopack]_runtime.js
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\postcss.js
-    [at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)]
-    [at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)]
-    [at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)]
-    [at Module._load (node:internal/modules/cjs/loader:1227:37)]
-    [at TracingChannel.traceSync (node:diagnostics_channel:328:14)]
-    [at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)]
-    [at Module.require (node:internal/modules/cjs/loader:1504:12)]
-    [at require (node:internal/modules/helpers:152:16)]
-    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
-    [at <anonymous>]
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.tsx [Server Component]
-[00:00:03.448] Browser ERROR   ./src/app/globals.css
-Error evaluating Node.js code
-Error: Cannot find module '@tailwindcss/postcss'
-Require stack:
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\chunks\[root-of-the-server]__6d51cb5d._.js
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\chunks\[turbopack]_runtime.js
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\postcss.js
-    [at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)]
-    [at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)]
-    [at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)]
-    [at Module._load (node:internal/modules/cjs/loader:1227:37)]
-    [at TracingChannel.traceSync (node:diagnostics_channel:328:14)]
-    [at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)]
-    [at Module.require (node:internal/modules/cjs/loader:1504:12)]
-    [at require (node:internal/modules/helpers:152:16)]
-    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
-    [at <anonymous>]
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.tsx [Server Component]
-[00:00:03.448] Browser ERROR   ./src/app/globals.css
-Error evaluating Node.js code
-Error: Cannot find module '@tailwindcss/postcss'
-Require stack:
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\chunks\[root-of-the-server]__6d51cb5d._.js
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\chunks\[turbopack]_runtime.js
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\postcss.js
-    [at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)]
-    [at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)]
-    [at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)]
-    [at Module._load (node:internal/modules/cjs/loader:1227:37)]
-    [at TracingChannel.traceSync (node:diagnostics_channel:328:14)]
-    [at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)]
-    [at Module.require (node:internal/modules/cjs/loader:1504:12)]
-    [at require (node:internal/modules/helpers:152:16)]
-    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
-    [at <anonymous>]
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.tsx [Server Component]
-[00:00:03.448] Browser ERROR   ./src/app/globals.css
-Error evaluating Node.js code
-Error: Cannot find module '@tailwindcss/postcss'
-Require stack:
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\chunks\[root-of-the-server]__6d51cb5d._.js
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\chunks\[turbopack]_runtime.js
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\postcss.js
-    [at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)]
-    [at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)]
-    [at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)]
-    [at Module._load (node:internal/modules/cjs/loader:1227:37)]
-    [at TracingChannel.traceSync (node:diagnostics_channel:328:14)]
-    [at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)]
-    [at Module.require (node:internal/modules/cjs/loader:1504:12)]
-    [at require (node:internal/modules/helpers:152:16)]
-    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
-    [at <anonymous>]
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.tsx [Server Component]
-[00:00:14.436] Browser ERROR   ./src/app/globals.css
-Error evaluating Node.js code
-Error: Cannot find module '@tailwindcss/postcss'
-Require stack:
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\chunks\[root-of-the-server]__6d51cb5d._.js
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\chunks\[turbopack]_runtime.js
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\postcss.js
-    [at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)]
-    [at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)]
-    [at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)]
-    [at Module._load (node:internal/modules/cjs/loader:1227:37)]
-    [at TracingChannel.traceSync (node:diagnostics_channel:328:14)]
-    [at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)]
-    [at Module.require (node:internal/modules/cjs/loader:1504:12)]
-    [at require (node:internal/modules/helpers:152:16)]
-    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
-    [at <anonymous>]
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.tsx [Server Component]
-[00:00:14.437] Browser ERROR   ./src/app/globals.css
-Error evaluating Node.js code
-Error: Cannot find module '@tailwindcss/postcss'
-Require stack:
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\chunks\[root-of-the-server]__6d51cb5d._.js
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\chunks\[turbopack]_runtime.js
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\postcss.js
-    [at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)]
-    [at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)]
-    [at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)]
-    [at Module._load (node:internal/modules/cjs/loader:1227:37)]
-    [at TracingChannel.traceSync (node:diagnostics_channel:328:14)]
-    [at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)]
-    [at Module.require (node:internal/modules/cjs/loader:1504:12)]
-    [at require (node:internal/modules/helpers:152:16)]
-    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
-    [at <anonymous>]
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.tsx [Server Component]
-[00:00:14.437] Browser ERROR   ./src/app/globals.css
-Error evaluating Node.js code
-Error: Cannot find module '@tailwindcss/postcss'
-Require stack:
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\chunks\[root-of-the-server]__6d51cb5d._.js
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\chunks\[turbopack]_runtime.js
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\postcss.js
-    [at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)]
-    [at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)]
-    [at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)]
-    [at Module._load (node:internal/modules/cjs/loader:1227:37)]
-    [at TracingChannel.traceSync (node:diagnostics_channel:328:14)]
-    [at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)]
-    [at Module.require (node:internal/modules/cjs/loader:1504:12)]
-    [at require (node:internal/modules/helpers:152:16)]
-    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
-    [at <anonymous>]
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.tsx [Server Component]
-[00:01:22.443] Browser ERROR   ./src/app/globals.css
-Error evaluating Node.js code
-Error: Cannot find module '@tailwindcss/postcss'
-Require stack:
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\chunks\[root-of-the-server]__6d51cb5d._.js
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\chunks\[turbopack]_runtime.js
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\postcss.js
-    [at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)]
-    [at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)]
-    [at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)]
-    [at Module._load (node:internal/modules/cjs/loader:1227:37)]
-    [at TracingChannel.traceSync (node:diagnostics_channel:328:14)]
-    [at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)]
-    [at Module.require (node:internal/modules/cjs/loader:1504:12)]
-    [at require (node:internal/modules/helpers:152:16)]
-    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
-    [at <anonymous>]
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.tsx [Server Component]
-[00:01:22.443] Browser ERROR   ./src/app/globals.css
-Error evaluating Node.js code
-Error: Cannot find module '@tailwindcss/postcss'
-Require stack:
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\chunks\[root-of-the-server]__6d51cb5d._.js
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\chunks\[turbopack]_runtime.js
-- C:\Users\hp\Desktop\techimpacters\.next\dev\build\postcss.js
-    [at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)]
-    [at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)]
-    [at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)]
-    [at Module._load (node:internal/modules/cjs/loader:1227:37)]
-    [at TracingChannel.traceSync (node:diagnostics_channel:328:14)]
-    [at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)]
-    [at Module.require (node:internal/modules/cjs/loader:1504:12)]
-    [at require (node:internal/modules/helpers:152:16)]
-    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
-    [at <anonymous>]
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.tsx [Server Component]
-[00:01:22.443] Browser ERROR   ./src/app/globals.css
+[00:00:04.735] Browser ERROR   ./src/app/globals.css
 Error evaluating Node.js code
 Error: Cannot find module '@tailwindcss/postcss'
 Require stack:
