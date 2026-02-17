@@ -17,3 +17,8 @@
 [00:05:13.903] Server  LOG     ✓ Compiled in 61ms
 [00:05:19.047] Server  LOG     ✓ Compiled in 162ms
 [00:05:23.537] Server  LOG     ✓ Compiled in 142ms
+[00:06:47.514] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:48.557] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1523240795612-9a0546980c83?w=1920&q=80" 404
+[00:06:51.698] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1523240795612-9a0546980c83?w=600&q=80" 404
+[00:06:55.776] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:06:56.412] Server  ERROR   ⨯ "upstream image response failed for" "https://images.unsplash.com/photo-1523240795612-9a0546980c83?w=800&q=80" 404

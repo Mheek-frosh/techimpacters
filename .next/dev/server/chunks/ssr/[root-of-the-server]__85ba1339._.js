@@ -41,8 +41,34 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$i
 ;
 ;
 const metadata = {
+    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://techimpacters.org"),
     title: "Techimpacters | Driving Tech Innovation in Schools",
-    description: "Academic NGO dedicated to promoting technology and digital literacy in various schools."
+    description: "Academic NGO dedicated to promoting technology and digital literacy in various schools.",
+    icons: {
+        icon: [
+            {
+                url: "/favy.jpg",
+                type: "image/jpeg"
+            }
+        ],
+        shortcut: "/favy.jpg",
+        apple: "/favy.jpg"
+    },
+    openGraph: {
+        title: "Techimpacters | Driving Tech Innovation in Schools",
+        description: "Academic NGO dedicated to promoting technology and digital literacy in various schools.",
+        images: [
+            "/favy.jpg"
+        ]
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Techimpacters | Driving Tech Innovation in Schools",
+        description: "Academic NGO dedicated to promoting technology and digital literacy in various schools.",
+        images: [
+            "/favy.jpg"
+        ]
+    }
 };
 function RootLayout({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
@@ -53,12 +79,12 @@ function RootLayout({ children }) {
             children: children
         }, void 0, false, {
             fileName: "[project]/src/app/layout.tsx",
-            lineNumber: 19,
+            lineNumber: 36,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/layout.tsx",
-        lineNumber: 18,
+        lineNumber: 35,
         columnNumber: 9
     }, this);
 }

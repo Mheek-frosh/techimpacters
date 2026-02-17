@@ -5,8 +5,25 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://techimpacters.org"),
     title: "Techimpacters | Driving Tech Innovation in Schools",
     description: "Academic NGO dedicated to promoting technology and digital literacy in various schools.",
+    icons: {
+        icon: [{ url: "/favy.jpg", type: "image/jpeg" }],
+        shortcut: "/favy.jpg",
+        apple: "/favy.jpg",
+    },
+    openGraph: {
+        title: "Techimpacters | Driving Tech Innovation in Schools",
+        description: "Academic NGO dedicated to promoting technology and digital literacy in various schools.",
+        images: ["/favy.jpg"],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Techimpacters | Driving Tech Innovation in Schools",
+        description: "Academic NGO dedicated to promoting technology and digital literacy in various schools.",
+        images: ["/favy.jpg"],
+    },
 };
 
 export default function RootLayout({
